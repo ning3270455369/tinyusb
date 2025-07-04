@@ -47,7 +47,6 @@
   #include "stm32n6xx.h"
 #endif
 
-<<<<<<< HEAD:examples/device/audio_test_freertos/src/FreeRTOSConfig/FreeRTOSConfig.h
 // TODO fix later
 #if CFG_TUSB_MCU == OPT_MCU_MM32F327X
   extern u32 SystemCoreClock;
@@ -66,14 +65,6 @@
 #define configENABLE_TRUSTZONE					        0
 #define configMINIMAL_SECURE_STACK_SIZE					( 1024 )
 #define configRUN_FREERTOS_SECURE_ONLY          1
-=======
-/* Cortex M55 port configuration. */
-#define configENABLE_MVE                        0
-#define configENABLE_MPU                        0
-#define configENABLE_FPU                        1
-#define configENABLE_TRUSTZONE                  0
-#define configMINIMAL_SECURE_STACK_SIZE         (1024)
->>>>>>> 9d872d529ffa0aa53e735b24543c26156798fc64:hw/bsp/stm32n6/FreeRTOSConfig/FreeRTOSConfig.h
 
 #define configUSE_PREEMPTION                    1
 #define configUSE_PORT_OPTIMISED_TASK_SELECTION 0

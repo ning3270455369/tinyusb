@@ -44,7 +44,6 @@
 
 // skip if included from IAR assembler
 #ifndef __IASMARM__
-<<<<<<< HEAD:examples/device/audio_4_channel_mic_freertos/src/FreeRTOSConfig/FreeRTOSConfig.h
 
 // Include MCU header
 #include "bsp/board_mcu.h"
@@ -63,9 +62,6 @@
   extern uint32_t SystemCoreClock;
 #endif
 
-=======
-  #include "stm32h7rsxx.h"
->>>>>>> 9d872d529ffa0aa53e735b24543c26156798fc64:hw/bsp/stm32h7rs/FreeRTOSConfig/FreeRTOSConfig.h
 #endif
 
 /* Cortex M23/M33 port configuration. */
